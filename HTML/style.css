@@ -1,0 +1,40 @@
+/* Seletores */
+
+/* Inline = direto na tag HTML */
+
+h1{
+    /*Cor do elemento */
+      color: rgb(199, 0, 255);
+    /*Tipo de Fonte */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* Tamanho da Fonte */
+  
+    font-size: 26pt;
+     /* Alinhamento da fonte*/
+     text-align: center;
+  
+  
+  };
+  
+  h2{
+     color:blue;
+  
+  
+  };
+  
+  p{
+   /* justificar o texto*/
+     text-align: justify;
+  
+  
+  };
+  
+  h3{
+  
+  
+  text-align: center;
+  font-family: fantasy;
+  font-style: italic;
+  color: blueviolet;
+  
+  };
