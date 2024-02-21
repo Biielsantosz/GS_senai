@@ -1,0 +1,19 @@
+table{
+
+    border: 1px;
+    border-color: black;
+    text-align: center;
+
+
+}
+th{
+
+    border: 1px solid;
+    border-color: black;
+}
+
+li{
+    /*Apaga o estilo da lista*/
+    list-style: nome;
+    
+}
