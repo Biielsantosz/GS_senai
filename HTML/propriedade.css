@@ -1,0 +1,49 @@
+div {
+
+    background-color: rgb(42, 147, 165);
+    margin: 0 100px 0 100px;
+    padding: 50px;
+    display: block;
+}
+
+h3{
+    background-color: aqua;
+    margin: 0 100px 0 100px;
+    padding: 50px;
+    display: block;
+    position: absolute;
+
+    
+
+}
+
+h3{
+
+
+    background-color: rgb(38, 0, 255);
+    margin: 0 100px 0 100px;
+    padding: 50px;
+    display: block;
+    position: absolute;
+    
+    
+
+}
+
+
+.principal{
+
+    background-color: rgb(111,0,225);
+    margin: 100px 100px 200px 100px ;
+    padding: 50px;
+    margin-top: 200px;
+    padding-bottom: 500px;
+    display: inline;
+    position: absolute;
+    width: 200px;   
+    
+
+}
+
+    
+    
