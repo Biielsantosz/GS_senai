@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/home.css">
+    <title>SIS Tech - Cadastro de Clientes </title>
+</head>
+<body>
+    <h1>SIS Tech - Sistema de Cadastro de Clientes</h1>
+    <form action="painel.html" name="formlogin">
+        <div>
+            <label for="">Email</label><br>
+            <input type="email" name="email" placeholder="Email" class="campo1"
+            id="">
+        </div>
+        <div>
+            <label for="">Password</label><br>
+            <input type="password" name="senha" placeholder="senha" 
+            class="campo1" id="required">           
+        </div>
+        <div>
+            <button type="submit" class="botao" onclick="validar_campos_login()
+            "> 
+            ENVIAR </button>
+        </div>
+    </form>
+    <script src="./js/valida.js"></script>
+</body>
+</html>

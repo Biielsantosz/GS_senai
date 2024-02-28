@@ -38,7 +38,9 @@ img {
     height: 200px;
     border-radius: 100px;
     text-align: center;
+    
 }
+
 
 
 main{
@@ -49,4 +51,5 @@ main p{
     text-align: justify;
     margin:50px 50px 50px 50px;
 }
+
 
