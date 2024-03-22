@@ -1,0 +1,165 @@
+@import url('./background-video.css');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #b39f32;
+}
+
+.menu{
+    text-align: left;
+    font: 400 1rem "Mukta", sans-serif;
+    
+}
+
+.menu ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 10px;
+    position: relative;
+}
+
+
+.menu ul li a {
+    padding: 8px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 1px;
+    position: relative;
+    
+}
+
+.search {
+    top: 24px;
+    right: 20px;
+    position: absolute;
+    border: 2px solid rgb(255, 255, 255);
+   
+}
+
+.search input {
+    font-size: 25px;
+    border: 1px solid #fff;
+    padding: 8px;
+}
+
+.content h2{
+    font-size: 60px;
+    color: #fff;
+    margin-left: 8%;
+    margin-top: 4%;
+    text-align: left;
+    
+    
+}
+
+.content b {
+    color: rgba(179, 179, 14, 0.719);
+    font-size: 100px;
+}
+
+.content p{
+    text-align: left;
+    font-size: 50px;
+    margin-left: 60px;
+    margin-top: 10px;
+    color: #fff;
+    
+
+}
+
+.photo {
+    width: 70%;
+    float: right;
+}
+
+.photo img {
+    width: 80%;
+    margin-top: -250px;
+    margin-left: 50px;
+    border-radius: 30%;
+}
+
+.font {
+    right: 72px;
+    bottom: 45px;
+    position: absolute;
+}
+
+.font ul i {
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.font ul a i {
+    font-size: 20px;
+    color: #fff;
+    border: 3px solid yellow;
+    border-radius: 50%;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.button {
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    font: 400 1rem "Mukta", sans-serif;
+}
+
+
+.btn {
+    color: #fff;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.menu ul li a:hover{
+    color: rgb(255, 10, 10)
+}
+
+.content h2:hover {
+    text-shadow: 14px 14px 14px #fff;
+}
+
+
+
+.btn :hover {
+    background: #ffa500;
+}
+
+.font ul a i :hover {
+    background: #ffa500;
+}
+
+a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #f80000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    font: 400 1rem "Mukta", sans-serif;
+  }
+  
+  a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
